@@ -16,7 +16,7 @@ module.exports = class ThoughtController{
             plain: true,
         })
 
-        const thoughts = user.Thought.map((result) => result.dataValues)
+        const thoughts = user.Thoughts.map((result) => result.dataValues)
 
         let emptyThoughts = true
 
